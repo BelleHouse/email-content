@@ -1,0 +1,42 @@
+body {
+  background: #222;
+  font-size: 17px;
+}
+/* NAVIGATION BAR */
+nav .logo img {
+  height: 80px;
+  width: 80px;
+}
+nav {
+  color: deepskyblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+nav .company-name {
+  width: 60%;
+}
+
+/* MAIN CONTENT */
+
+main {
+  color: #fff;
+}
+main a {
+  color: deepskyblue;
+  text-decoration: none;
+}
+main .code {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #00bfff;
+  margin: 2rem;
+}
+main .code span {
+  background: #f1ecec;
+  padding: 1px 2rem;
+  border-radius: 2px;
+}
